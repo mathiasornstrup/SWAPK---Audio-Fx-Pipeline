@@ -1,0 +1,28 @@
+@startuml Arkitektur
+
+hide empty methods
+hide empty members
+
+class Pipeline<Components...> 
+class Parallel<Component,Component>
+class ComponentTraits<Tag>
+
+Effect -u-|> ComponentTraits
+Input -u-|> ComponentTraits
+Output -u-|> ComponentTraits
+
+Pipeline -u-* Effect
+Pipeline -u-* Input
+Pipeline -u-* Output
+Pipeline -u-* Parallel
+
+Parallel -l-* Pipeline
+Parallel -* Parallel
+Parallel -u-* Effect
+Parallel -u-* Input
+Parallel -u-* Output
+
+Pipeline -u-|> ComponentTraits
+Parallel -u-|> ComponentTraits
+
+@enduml

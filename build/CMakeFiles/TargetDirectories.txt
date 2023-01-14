@@ -1,0 +1,3 @@
+/home/stud/SWAPK-PROJEKT/build/CMakeFiles/EAMFUP.dir
+/home/stud/SWAPK-PROJEKT/build/CMakeFiles/edit_cache.dir
+/home/stud/SWAPK-PROJEKT/build/CMakeFiles/rebuild_cache.dir
