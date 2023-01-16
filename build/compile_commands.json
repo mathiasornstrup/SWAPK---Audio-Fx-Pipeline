@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/stud/SWAPK-PROJEKT/build",
-  "command": "/usr/bin/g++ -I/home/stud/SWAPK-PROJEKT/build -I/home/stud/SWAPK-PROJEKT/include -g -g -O3 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wmisleading-indentation -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -std=gnu++20 -o CMakeFiles/EAMFUP.dir/main.cpp.o -c /home/stud/SWAPK-PROJEKT/main.cpp",
-  "file": "/home/stud/SWAPK-PROJEKT/main.cpp"
-}
-]
